@@ -29,14 +29,23 @@ To get a local copy up and running follow these simple steps.
 ## Backend Setup
 
 Clone the repository:
+
 git clone https://github.com/your-username/EmailAutomationApp.git
+
 Navigate to the backend directory:
+
 cd EmailAutomationApp/backend
+
 Install dependencies:
+
 npm install
+
 Set up environment variables:
+
 Create a .env file based on .env.example and configure MongoDB connection string and JWT secret.
+
 Start the backend server:
+
 npm start
 
 The server should run on http://localhost:5000.
