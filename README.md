@@ -9,7 +9,8 @@ Subscription Management: Admin can manage the list of subscribers who receive da
 Email Scheduler: Admin can schedule the exact time for sending daily email reports.
 Dashboard: Provides a dashboard for users to view statistics, manage settings, and subscriptions.
 Responsive UI: Frontend built with React ensures a responsive and intuitive user interface.
-Technologies Used
+
+## Technologies Used
 Backend: Node.js, Express.js, MongoDB
 Frontend: React.js, Axios
 Authentication: JSON Web Tokens (JWT)
@@ -21,42 +22,31 @@ Before running the application, ensure you have the following installed:
 Node.js (version 14.x or higher)
 npm or yarn package manager
 MongoDB (local installation or MongoDB Atlas account for cloud)
-Getting Started
+
+## Getting Started
 To get a local copy up and running follow these simple steps.
 
 ## Backend Setup
-Clone the repository:
 
+Clone the repository:
 git clone https://github.com/your-username/EmailAutomationApp.git
 Navigate to the backend directory:
-
-
 cd EmailAutomationApp/backend
 Install dependencies:
-
-
 npm install
 Set up environment variables:
-
 Create a .env file based on .env.example and configure MongoDB connection string and JWT secret.
 Start the backend server:
-
-
 npm start
+
 The server should run on http://localhost:5000.
 
-Frontend Setup
+## Frontend Setup
 Navigate to the frontend directory:
-
-
 cd ../client
 Install dependencies:
-
-
 npm install
 Start the frontend development server:
-
-
 npm start
 The frontend should open in your default browser at http://localhost:3000.
 
