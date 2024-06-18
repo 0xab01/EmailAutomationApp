@@ -51,12 +51,19 @@ npm start
 The server should run on http://localhost:5000.
 
 ## Frontend Setup
+
 Navigate to the frontend directory:
+
 cd ../client
+
 Install dependencies:
+
 npm install
+
 Start the frontend development server:
+
 npm start
+
 The frontend should open in your default browser at http://localhost:3000.
 
 ## Usage
