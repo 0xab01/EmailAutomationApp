@@ -5,18 +5,28 @@ This project is designed to automate the process of sending daily email reports 
 ## Features
 
 User Registration and Authentication: Users can register accounts and authenticate securely.
+
 Subscription Management: Admin can manage the list of subscribers who receive daily email reports.
+
 Email Scheduler: Admin can schedule the exact time for sending daily email reports.
+
 Dashboard: Provides a dashboard for users to view statistics, manage settings, and subscriptions.
+
 Responsive UI: Frontend built with React ensures a responsive and intuitive user interface.
 
 ## Technologies Used
+
 Backend: Node.js, Express.js, MongoDB
+
 Frontend: React.js, Axios
+
 Authentication: JSON Web Tokens (JWT)
+
 Database: MongoDB (MongoDB Atlas for cloud deployment)
+
 Deployment: Heroku (for backend), Netlify (for frontend)
-Prerequisites
+
+## Prerequisites
 Before running the application, ensure you have the following installed:
 
 Node.js (version 14.x or higher)
