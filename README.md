@@ -1,4 +1,4 @@
-##Email Automation App
+#Email Automation App
 
 This project is designed to automate the process of sending daily email reports to a list of subscribers. It includes both a backend server and a frontend client to manage users, subscriptions, and scheduled email sending.
 
