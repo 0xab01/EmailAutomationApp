@@ -1,0 +1,32 @@
+.email-composer {
+    flex: 1;
+    padding: 20px;
+}
+
+.email-composer h3 {
+    margin-bottom: 20px;
+}
+
+.email-composer textarea {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.email-composer button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.email-composer button:hover {
+    background-color: #0056b3;
+}

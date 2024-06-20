@@ -1,17 +1,20 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Register from './components/auth/register';  // Adjust path as per your project structure
-import Login from './components/auth/login';  // Adjust path as per your project structure
-import Dashboard from './components/dashboard/dashboard';  // Adjust path as per your project structure
+import Dashboard from './components/Dashboard/dashboard.jsx';
+import Register from './components/auth/register.jsx';
+import Login from './components/auth/login.jsx';
+import './App.css';
 
 const App = () => {
     return (
         <Router>
-            <Routes>
-                <Route exact path="/register" component={Register} />
-                <Route exact path="/login" component={Login} />
-                <Route exact path="/dashboard" component={Dashboard} />
-            </Routes>
+            <div className="app">
+                <Routes>
+                    <Route exact path="/" component={Dashboard} />
+                    <Route exact path="/register" component={Register} />
+                    <Route exact path="/login" component={Login} />
+                </Routes>
+            </div>
         </Router>
     );
 };
