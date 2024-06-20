@@ -10,9 +10,9 @@ const App = () => {
         <Router>
             <div className="app">
                 <Routes>
-                    <Route exact path="/" component={Dashboard} />
+                    <Route path="/" element={ <Dashboard/>}></Route>
                     <Route exact path="/register" component={Register} />
-                    <Route exact path="/login" component={Login} />
+                    <Route path="login" element={ <Login/>}></Route>
                 </Routes>
             </div>
         </Router>
@@ -20,3 +20,5 @@ const App = () => {
 };
 
 export default App;
+
+
