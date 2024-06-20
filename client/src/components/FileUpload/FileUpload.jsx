@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import './fileupload.css';
+import axios from 'axios';
 
 const FileUpload = () => {
     const [file, setFile] = useState(null);
 
     const handleFileChange = (e) => {
         setFile(e.target.files[0]);
-    };
-
+    }; 
+                         
     const handleUpload = async () => {
         const formData = new FormData();
         formData.append('file', file);
@@ -33,3 +34,4 @@ const FileUpload = () => {
 };
 
 export default FileUpload;
+

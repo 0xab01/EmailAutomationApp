@@ -1,7 +1,7 @@
 import React from 'react';
-import Sidebar from './Sidebar/Sidebar';
-import EmailComposer from './EmailComposer/EmailComposer.jsx';
-import FileUpload from './FileUpload/Fileupload.jsx';
+import Sidebar from '../Sidebar/Sidebar.jsx';
+import EmailComposer from '../EmailComposer/EmailComposer.jsx';
+import FileUpload from '../FileUpload/FileUpload.jsx';
 import './dashboard.css';
 
 const Dashboard = () => {
@@ -16,4 +16,6 @@ const Dashboard = () => {
     );
 };
 
+
 export default Dashboard;
+ 
